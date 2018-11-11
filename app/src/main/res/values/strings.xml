@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Jaegi</string>
+    <string name="toast_blocked">Jack&quot;d로부터 구글 플레이 스토어 실행을 차단했습니다.</string>
+</resources>
