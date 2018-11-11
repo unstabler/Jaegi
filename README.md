@@ -2,6 +2,10 @@
 
 Jaegi는 게이 데이팅 앱 [Jack'd](http://jackd.mobi) 에서 구글 플레이 스토어 팝업이 뜨는 것을 막아주는 애플리케이션입니다.
 
+# 설치 방법
+
+이 저장소의 [Releases](https://github.com/unstabler/Jaegi/releases) 페이지에서 최신 버전의 apk를 다운받을 수 있습니다.
+
 # 사용 방법 
 
 1. Jack'd를 켜고, 하단에 뜨는 앱 설치 광고를 누릅니다.
