@@ -39,6 +39,6 @@ public class JDDumbListenerActivity extends Activity {
         }
 
         Log.d(LOG_TAG, String.format("uri [%s] has blocked;", referrerIntent.getData().toString()));
-        Toast.makeText(this, R.string.toast_blocked, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this.getApplicationContext(), R.string.toast_blocked, Toast.LENGTH_SHORT).show();
     }
 }
