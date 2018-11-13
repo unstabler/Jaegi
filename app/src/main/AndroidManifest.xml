@@ -23,7 +23,8 @@
 
         <activity
             android:name=".JDDumbListenerActivity"
-            android:theme="@style/TransitionDisabledTheme">
+            android:theme="@style/TransitionDisabledTheme"
+            android:launchMode="singleTask">
             <intent-filter>
                 <data android:scheme="market" />
                 <action android:name="android.intent.action.VIEW" />
