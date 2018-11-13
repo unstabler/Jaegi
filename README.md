@@ -4,6 +4,8 @@ Jaegi는 게이 데이팅 앱 [Jack'd](http://jackd.mobi) 에서 구글 플레�
 
 # 설치 방법
 
+**동작이 더욱 가벼워진 v2가 릴리즈 되었습니다. 기존 버전 사용하시는 분들은 업데이트 해 주세요.** 
+
 이 저장소의 [Releases](https://github.com/unstabler/Jaegi/releases) 페이지에서 최신 버전의 apk를 다운받을 수 있습니다.
 
 # 사용 방법 
