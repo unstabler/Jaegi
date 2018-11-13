@@ -18,20 +18,4 @@ public class MainActivity extends AppCompatActivity {
         this.webView.getSettings().setJavaScriptEnabled(true);
         this.webView.loadUrl(GITHUB_README_URL);
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        this.suicide();
-        this.finish();
-    }
-
-    private void suicide() {
-        // XXX: listener 트리거 시 MainActivity가 뜨는 것 방지
-        // FIXME: 좀 더 깔끔한 방법을 쓰고 싶어
-        android.os.Process.killProcess(
-            android.os.Process.myPid()
-        );
-        System.exit(0);
-    }
 }
