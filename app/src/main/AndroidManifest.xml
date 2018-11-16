@@ -24,8 +24,7 @@
 
         <activity
             android:name=".JDDumbListenerActivity"
-            android:theme="@style/TransitionDisabledTheme"
-            android:launchMode="singleTask">
+            android:theme="@style/TransitionDisabledTheme">
             <intent-filter>
                 <data android:scheme="market" />
                 <action android:name="android.intent.action.VIEW" />
